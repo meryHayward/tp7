@@ -1,0 +1,70 @@
+
+
+<section class="intro">
+
+    <div class="intro-left">
+        <div class="intro-left-cotnenido">
+            <h1></h1>
+            <p></p>
+            <button></button>
+        </div>
+    </div>
+
+    <div class="intro-right">
+        <div class="intro-right-imagen">
+            <img src="./images/image-mockups.png" alt="">
+        </div>
+    </div>
+
+</section>
+
+
+<!-- ESTILOS
+
+  SECCION "INTRO":
+    -le puse display flex (para que left y right queden uno al lado del otro)
+    - le aplique un alto en pixeles
+    - La imagen de fondo (bg-intro-desktop.svg) esta como background de esta seccion
+        -> la poscione con las propiedades background-size y background-pisition
+        A tener en cuenta:
+
+background-size -> There are four different syntaxes you can use with this property:
+    1. the keyword syntax ("auto", "cover" and "contain"), 
+    2. the one-value syntax (sets the width of the image (height becomes "auto"), 
+    3. the two-value syntax (first value: width of the image, second value: height), 
+    4. and the multiple background syntax (separated with comma).
+    https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+background-position -> Property Values:
+    1. x% y% 	The first value is the horizontal position and the second value is the vertical. The top left corner is 0% 0%, etc
+    2. xpos ypos 	The first value is the horizontal position and the second value is the vertical.
+    3. left top  - left center - etc.. 
+    If you only specify one keyword, the other value will be "center"
+    https://www.w3schools.com/cssref/pr_background-position.asp
+
+    ACLARO ESTO PORQ YO UTILICE ESTAS PROPIEDADES CON PORCETAJES Y EM..chino, pero funciono.
+
+
+SECCION "INTRO-LEFT":
+    -le asigne un width del 30% aprox y una altura del 100%, lo termine de posicionar con margenes
+
+
+SECCION "intro-left-cotnenido":
+ -le aplique display flex - column
+
+
+SECCION "intro-right":
+ -le asigne un width de 45%
+
+SECCION "intro-right-imagen":
+ -le asigne un height del 100%
+ -overflow: hidden -> esta propiedad me sirvio para que la img no salga del contenedor y me produzca un scroll en el navegador para la derecha. concretamente, me corta la imagen si se escapa para la derecha.
+
+
+ SECCION HEADER
+    -para que la imagen no se vea, le aplica a este contenedor:
+        -postion: relative (esto solo la hice para ponerle un z-index)
+        -z-index: 1
+        -background color -> porq si no lo tiene, por mas q tenga zindex, sin el background-color la img del celular se ve igual
+
+ -->
