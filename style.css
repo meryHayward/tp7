@@ -1,0 +1,139 @@
+:root{
+  --AzulGrisáceo: hsl(233, 8%, 62%);
+  --AzulGrisáceo Claro: hsl(220, 16%, 96%);
+  --GrisMuyClaro: hsl(0, 0%, 98%);
+  --Blanco: hsl(0, 0%, 100%);
+  --AzulOscuro: hsl(233, 26%, 24%);
+  --VerdeLima: #31d165;
+  --CianBrillante: #2bb8d6;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Public Sans', sans-serif;
+  
+}
+.contenido{
+  background-image: url(/images/bg-intro-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right top;
+  z-index: 100;
+
+}
+
+.header{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin: auto;
+  height: 90px;
+  background-color: #fafafa;
+  
+}
+.navBar{
+  width: 300px;
+  margin-top: 50px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;    
+}
+a{
+  color: #999999;
+  font-size: 16px;
+  text-decoration: none;
+}
+.logo{
+  margin-top: 50px;
+}
+.buttonNav{
+  margin-top: 50px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 30px;
+  background: rgb(43,184,214);
+  background: linear-gradient(315deg, rgba(43,184,214,1) 0%, rgba(49,209,101,1) 100%);
+  color: white;
+  font-weight: 400;
+  border: none;
+
+}
+h1{
+  font-size: 24px;
+  color: #2e2f4e;
+  text-align: left;
+  width: 350px;
+}
+p{
+  margin-top: 30px;
+  color: #999999;
+  font-size: 14px;
+  width: 400px;
+  line-height: 30px;
+}
+
+.intro{
+  margin-top: 50px;
+  height: 400px; 
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: white;
+  z-index: -2;
+
+}
+.articulos{
+  margin-top: 50px;
+  height: 400px; 
+  display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+  align-content: stretch;
+  z-index: -2;
+}
+.articulos2{
+  margin-top: 50px;
+  height: 400px; 
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+  align-content: stretch;
+  padding-left: 100px;
+  padding-right: 100px;
+  z-index: -2;
+}
+
+/* .imagenFondo{
+  background-image: url(/images/bg-intro-desktop.svg);
+  float: right;
+  z-index: -1;
+  width: 50%;
+  height: 50%;
+
+  
+
+} */
