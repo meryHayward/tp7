@@ -31,8 +31,8 @@ body{
 .contenido{
   background-image: url(images/bg-intro-desktop.svg);
   background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: right top;
+  background-size: 60%;
+  background-position: 120% 0%;
 }
 
 .header{
